@@ -1,0 +1,39 @@
+.ant-layout-sider {
+    /* right side shadow for the sider */
+    box-shadow: 0px 0px 8px 0px #999999;
+}
+
+.ant-layout-sider .ant-menu:first-child {
+    /* move the first child in the sidebar */
+    padding-top: 20px;
+}
+.ant-layout-sider-trigger {
+    /* add a right border to the trigger so the menu and the trigger line up properly */
+    border-right: 1px solid #f0f0f0;
+}
+
+.sidebar-menu-itemgroup {
+    /* menu group items in the sidebar */
+    margin-bottom: 16px;
+}
+
+.sidebar-menu-itemgroup .ant-menu-item-group-title {
+    /* title of the menu group */
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.sidebar-menu-itemgroup .ant-menu-item {
+    /* have less space than the defaul of the menu item
+    use this if the menu item is not in the menu group
+    */
+    height: 28px;
+    line-height: 28px;
+}
+
+.ant-menu-inline-collapsed .ant-menu-item-group-title {
+    /* hide menu group title when the sidebar is collapsed */
+    display: none;
+}
